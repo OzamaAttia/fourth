@@ -112,7 +112,6 @@ aside a:hover {
         min-width: 58px;
         max-width: 58px;
         padding: 10px !important;
-        height: calc(100vh + 50px);
     }
     aside ul {
         margin-top: 10px;
@@ -128,9 +127,6 @@ aside a:hover {
     }
     aside a span { 
         display: none;
-    }
-    aside > div { 
-        margin-bottom: 50px;
     }
 }
 /* end sidebar */
