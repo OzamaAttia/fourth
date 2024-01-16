@@ -69,7 +69,7 @@ ul {
 /* start sidebar */
 aside {
     position: fixed;
-    height: 100vh;
+    height: 110vh;
     min-width: 217px;
     max-width: 217px;
     z-index: 100;
@@ -129,7 +129,7 @@ aside a:hover {
         display: none;
     }
     aside > div { 
-        margin-top: auto;
+        margin-bottom: 10vh;
     }
 }
 /* end sidebar */
