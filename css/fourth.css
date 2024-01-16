@@ -1158,7 +1158,6 @@ section .toggle-checkbox + .toggle-switch::before {
     min-height: 120px; 
     box-shadow: -3px -4px 15px #575f6352, 
                 0px 0px 12px rgb(0 0 0 / 93%);
-    /* margin-bottom: 35px; */
 }
 .sign-page .box input:not([type="submit"]) {
     border-radius: 50px;
@@ -1170,23 +1169,22 @@ section .toggle-checkbox + .toggle-switch::before {
 }
 .sign-page .box input:not([type="submit"]):focus {
     box-shadow: inset 3px 3px 11px 0px rgb(0 0 0 / 60%), 
-                inset -3px -3px 11px 0px rgb(75 75 75 / 47%);
+    inset -3px -3px 11px 0px rgb(75 75 75 / 47%);
 }
 .sign-page .box input[type="submit"] {
     box-shadow: 3px 3px 15px #575f6352, 
-                0px 0px 12px rgb(0 0 0 / 93%);
+    0px 0px 12px rgb(0 0 0 / 93%);
     background-color: var(--main-bg-color-card);
     border-radius: 50px;
     height: 55px;
     font-size: 24px;
-    /* color: var(--linkedin-color); */
+    line-height: 1.5;
     color: var(--text-color-light);
 }
 .sign-page .box input[type="submit"]:hover {
     box-shadow: inset 3px 3px 11px 0px rgb(0 0 0 / 60%), 
     inset -3px -3px 11px 0px rgb(75 75 75 / 47%);
-    /* color: var(--facebook-color); */
-    color: var(--linkedin-color);
+    color: var(--text-color);
 }
 .sign-page .box a {
     text-decoration: underline;
@@ -1204,23 +1202,5 @@ section .toggle-checkbox + .toggle-switch::before {
 .sign-page .box input[type="text"] {
     width: calc((100% - 10px) / 2);
 }
-.sign-page .box input[type="text"]:last-child {
-}
 /* end sign up */
 /* end sign-page*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
