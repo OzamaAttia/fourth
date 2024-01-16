@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--    font - cairo    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- css and font awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/fourth.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="body d-flex">
+        <aside class="p-20 bg-sec d-flex">
+            <ul class="f1 m-t-0">
+                <li>
+                    <a href="index.html" title="link" class="align-center m-b-5 p-10 trans-speed rad-6 font-14">
+                        <i class="fa-solid fa-chart-bar fa-fw"></i>
+                        <span class="m-l-10">dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="settings.html" title="link" class=" align-center m-b-5 p-10 trans-speed rad-6 font-14">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span class="m-l-10">settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="profile.html" title="link" class=" align-center m-b-5 p-10 trans-speed rad-6 font-14">
+                        <i class="fa-solid fa-user fa-fw"></i>
+                        <span class="m-l-10">profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="projects.html" title="link" class=" align-center m-b-5 p-10 trans-speed rad-6 font-14">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span class="m-l-10">projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="courses.html" title="link" class=" align-center m-b-5 p-10 trans-speed rad-6 font-14">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span class="m-l-10">courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="friends.html" title="link" class=" align-center m-b-5 p-10 trans-speed rad-6 font-14">
+                        <i class="fa-solid fa-users fa-fw"></i>
+                        <span class="m-l-10">friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="files.html" title="link" class=" align-center m-b-5 p-10 trans-speed rad-6 font-14">
+                        <i class="fa-solid fa-file fa-fw"></i>
+                        <span class="m-l-10">files</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="plans.html" title="link" class=" align-center m-b-5 p-10 trans-speed rad-6 font-14">
+                        <i class="fa-solid fa-credit-card fa-fw"></i>
+                        <span class="m-l-10">plans</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="align-center">
+                <a href="login.html" class="active align-center m-b-5 p-10 trans-speed rad-6 w-full">
+                    <i class="fa-solid fa-right-from-bracket fa-fw"></i>
+                    <span class="m-l-10">log out</span>
+                </a>
+            </div>
+        </aside>
+        <div class="main-content f1 over-f-h">
+            <header class="flex-between p-15 bg-sec">
+                <div class="search pos-r">
+                    <input class="p-10 trans-speed rad-10" type="search" placeholder="Type A Keyword">
+                </div>
+                <a href="login.html" class="cursor-p">
+                    <i class="fa-solid fa-user font-18"></i>
+                </a>
+            </header>
+            <h1 class="pos-r">sign up</h1>
+            <section class="sign-page flex-center">
+                <div class="box p-20 rad-10 flex-center flex-column">
+                        <i class="fa-solid fa-user flex-center rad-50 m-t-35 m-b-25"></i>
+                    <form>
+                        <div class="flex-between">
+                            <input type="text" placeholder="First Name" class="b-none p-20 m-b-15" required>
+                            <input type="text" placeholder="Last Name" class="b-none p-20  m-b-15" required>
+                        </div>
+                        <input type="email" placeholder="Email address" class="b-none p-20 w-full m-b-15" required>
+                        <input type="password" placeholder="Password" class="b-none p-20 w-full m-b-25" required minlength="8">
+                        <input type="submit" value="Create" class="b-none p-10 w-full m-b-15 cursor-p trans-speed">
+                    </form>
+                    <div class="flex-center font-14 color-gray flex-wrap m-b-35 m-t-5">
+                        <a href="#" class="color-gray trans-speed">forgot password?</a> 
+                        <span class="m-l-5"> or </span>
+                        <a href="login.html" class="color-gray m-l-5 trans-speed">login</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
